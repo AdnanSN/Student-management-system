@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Student Management System</h1>
+        <p>Select an option below:</p>
+        <div class="options">
+            <a href="/view_students" class="button">View Student List</a>
+            <a href="/add_student" class="button">Add a New Student</a>
+        </div>
+    </div>
+</body>
+</html>
