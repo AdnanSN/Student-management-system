@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #84fab0, #8fd3f4); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #000000;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b); 
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #ff6a89, #ff8260); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+th {
+    background: linear-gradient(45deg, #00b09b, #96c93d); 
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+
+a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff8260;
+}
